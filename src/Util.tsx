@@ -28,6 +28,8 @@ export interface ShowErrorProps {
 
 const config = {
 	subscription: {
+		active: true,
+		visited: true,
 		error: true,
 		submitError: true,
 		dirtySinceLastSubmit: true,
